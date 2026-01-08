@@ -9,7 +9,7 @@ I'm a Platform Engineer at [Sportradar](https://sportradar.com) in Ljubljana, wh
 
 ## What I Do
 
-I spend most of my time crafting internal tooling—CLI applications, Go libraries, and CI/CD automation that help development teams move faster and more confidently. There's something deeply satisfying about solving the small, repetitive problems that compound into big productivity gains.
+I spend most of my time crafting internal tooling — CLI applications, Go libraries, and CI/CD automation that help development teams move faster and more confidently. There's something deeply satisfying about solving the small, repetitive problems that compound into big productivity gains.
 
 My focus areas include:
 - **Go development** for internal tooling and libraries
