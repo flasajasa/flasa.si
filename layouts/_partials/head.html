@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ partialCached "head/favicon.html" . }}
+{{ partialCached "head/css.html" . }}
+
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="Jaša Jovan - Platform Engineer">
+<meta name="description" content="Platform Engineer specializing in Go, developer tooling, and CI/CD automation. Building infrastructure for 100+ developers in Ljubljana, Slovenia.">
+<meta name="keywords" content="Platform Engineer, Go Developer, DevOps, Kubernetes, GitLab CI/CD, AWS, Ljubljana, Slovenia, Software Engineer">
+<meta name="author" content="Jaša Jovan">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flasa.si/">
+<meta property="og:title" content="Jaša Jovan - Platform Engineer">
+<meta property="og:description" content="Building developer tools and infrastructure with Go. Specializing in CLI tools, CI/CD automation, and platform engineering.">
+<meta property="og:image" content="https://flasa.si/og-image.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://flasa.si/">
+<meta property="twitter:title" content="Jaša Jovan - Platform Engineer">
+<meta property="twitter:description" content="Building developer tools and infrastructure with Go. Specializing in CLI tools, CI/CD automation, and platform engineering.">
+<meta property="twitter:image" content="https://flasa.si/og-image.jpg">
+
+<!-- LinkedIn-specific (optional) -->
+<meta property="article:author" content="Jaša Jovan">
+<meta property="profile:first_name" content="Jaša">
+<meta property="profile:last_name" content="Jovan">

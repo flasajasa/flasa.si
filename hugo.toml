@@ -1,11 +1,8 @@
 baseURL = 'https://flasa.si'
 languageCode = 'en-us'
-title = 'flasa.si'
-theme = "shibui"
+title = "Jaša Jovan - Platform Engineer"
 
-[params]
-  author = "Jasa Jovan"
-  email = "jasa@flasa.si"
+theme = "shibui"
 
 [menu]
   [[menu.main]]
@@ -21,3 +18,38 @@ theme = "shibui"
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params]
+  author = "Jaša Jovan"
+  description = "Platform Engineer specializing in Go, developer tooling, and CI/CD automation in Ljubljana, Slovenia"
+  keywords = [
+    "Platform Engineer",
+    "Go Developer",
+    "DevOps Engineer",
+    "Kubernetes",
+    "GitLab CI/CD",
+    "AWS",
+    "Ljubljana",
+    "Slovenia"
+  ]
+  
+  # Social/Contact
+  github = "https://github.com/flasajasa"
+  linkedin = "https://linkedin.com/in/jasajovan"
+  email = "jasa@flasa.si"
+  
+  # SEO
+  images = ["/og-image.jpg"]  # Create a professional OG image
+
+# Add this for better HTML output
+[markup.goldmark.renderer]
+  unsafe = true  # Allow HTML in markdown
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
